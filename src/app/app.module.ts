@@ -10,10 +10,12 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AppRoutingModule } from './routing/routing.module';
 import { StudentComponent } from './student/student.component';
+import { InstructorComponent } from './instructor/instructor.component';
 import { HomeComponent } from './home/home.component';
 import { DataService } from './data.service';
 import { DeleteConfirmComponent } from './delete-confirm/delete-confirm.component';
 import { StudentFormComponent } from './student-form/student-form.component';
+import { InstructorFormComponent } from './instructor-form/instructor-form.component';
 import { StatusMessageComponent } from './status-message/status-message.component';
 
 @NgModule({
@@ -21,9 +23,11 @@ import { StatusMessageComponent } from './status-message/status-message.componen
     AppComponent,
     NavigationComponent,
     StudentComponent,
+    InstructorComponent,
     HomeComponent,
     DeleteConfirmComponent,
     StudentFormComponent,
+    InstructorFormComponent,
     StatusMessageComponent
   ],
   imports: [
